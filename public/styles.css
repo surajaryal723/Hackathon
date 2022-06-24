@@ -1,0 +1,454 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .bg-light {
+        background-color: white !important;
+    }
+    
+    .logo {
+        transform: scale(3);
+    }
+    
+    #banner {
+        margin-top: 1.5em;
+        background-color: #003145;
+        color: white;
+        height: 70vh;
+        padding-top: 6em;
+    }
+    
+    .bannerHeading {
+        font-size: 3.5rem;
+        border-left: 10px solid #ffce5c;
+        padding-left: 1em;
+        margin-top: 1em;
+        font-weight: 600;
+    }
+    
+    .bannerDescription {
+        margin-top: 2em;
+        font-weight: 500;
+        font-size: 18px;
+        width: 80%;
+        padding-left: 4em;
+    }
+    
+    .createChallengeBtn {
+        width: 198px;
+        margin-left: 4.3em;
+        font-weight: 600;
+        font-size: 18px;
+        padding: .3em;
+        border-radius: 10px;
+    }
+    
+    #data {
+        width: 100%;
+        height: 20vh;
+        background-color: #002a3b;
+        color: white;
+        border-top: 1px solid #284f5f;
+        border-right: 1px solid #284f5f;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .inner {
+        display: flex;
+    }
+    
+    .dataCountDesc {
+        margin-left: 2em;
+        position: relative;
+        top: 20px;
+    }
+    
+    .dataCount {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+    .dataDescription {
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #reason {
+        margin-top: 3em;
+    }
+    
+    .reasonHeading {
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .headingGreen {
+        color: #44924c;
+    }
+    
+    .reasons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 2em 0;
+    }
+    
+    .reason {
+        border-radius: 10px;
+        background-color: #f8f9fd;
+        max-width: 40%;
+        padding: 2em;
+    }
+    
+    .reasonTitle {
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin: 1em 0;
+    }
+    
+    .reasonDescription {
+        font-weight: 600;
+        color: #8b889f;
+    }
+    
+    #challenges {
+        background-color: #002a3b;
+        color: white;
+        padding: 2em 0 5em 0;
+    }
+    
+    .challengeHeading {
+        text-align: center;
+    }
+    
+    .search {
+        padding: .7em 3em;
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 2em;
+        margin-left: 250px;
+    }
+    
+    .searchForm {
+        position: relative;
+    }
+    
+    .searchIcon {
+        position: absolute;
+        top: 50px;
+        left: 270px;
+        color: black;
+        font-weight: 300;
+    }
+    
+    .filterBtn {
+        padding: .7em 3em;
+        margin-left: 1em;
+        background-color: white;
+    }
+    
+    .challenge {
+        background-color: white;
+        width: 25%;
+        border-radius: 20px;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+    
+    .challengeState {
+        color: black;
+        margin-top: 2em;
+        width: 30%;
+        margin: 2em auto;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    
+    .challengeTitle {
+        color: black;
+        font-weight: 600;
+        font-size: 1.2rem;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .challengeTime {
+        color: black;
+        margin-top: 1em;
+    }
+    
+    .timer {
+        color: black;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .challengeImg {
+        width: 100%;
+    }
+    
+    .challenges {
+        background-color: #003145;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        justify-content: space-around;
+        padding: 3em 0;
+    }
+    
+    .participateBtn {
+        color: white;
+        background-color: #44924c;
+        border: none;
+        padding: 1em 4em;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    
+    .dropdown-check-list {
+        width: 19.8%;
+        background-color: white;
+        color: #797979;
+        position: absolute;
+        right: 191px;
+        top: 80px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 1em;
+    }
+    
+    li {
+        margin: 1em 0;
+    }
+    
+    .w20 {
+        width: 100%;
+    }
+    
+    .display-none {
+        display: none;
+    }
+    
+    .filterBar {
+        width: 60%;
+        margin: auto;
+        padding: 2em;
+        margin-top: 2em;
+    }
+    
+    .filter {
+        background-color: #7a8f9a;
+        padding: .5em 3em;
+        border-radius: 30px;
+        margin: 3em 1em;
+    }
+    
+    .cross {
+        margin-left: 1em;
+    }
+    
+    #createChallenge {
+        margin-top: 2em;
+    }
+    
+    .createChallengeHeading {
+        background-color: #f8f9fd;
+        padding: 1em 2em;
+        font-weight: 1000;
+        font-size: 1.5rem;
+    }
+    
+    .challengeInput,
+    .formLabel {
+        display: block;
+        margin: 1em 0;
+    }
+    
+    .createChallengeForm {
+        padding: 3em;
+    }
+    
+    .formlabel {
+        font-weight: bolder;
+    }
+    
+    .challengeInput {
+        width: 30%;
+        padding: .5em;
+    }
+    
+    .date1,
+    .date2 {
+        width: 30%;
+        padding: .5em;
+    }
+    
+    .calendar1,
+    .calendar2 {
+        position: relative;
+        bottom: 1px;
+        right: 35px;
+        background-color: white;
+        pointer-events: none;
+    }
+    
+    .description {
+        width: 50%;
+        height: 300px;
+    }
+    
+    input {
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+    }
+    
+    .fileInput,
+    .levels {
+        width: 20%;
+        padding: 1em 2em;
+    }
+    
+    .uploadBtn {
+        position: relative;
+        right: 284px;
+        border: none;
+        padding: 1.5em 2em;
+        border-radius: 10px;
+        pointer-events: none;
+    }
+    
+    .submitChallengeBtn {
+        margin-top: 2em;
+        background-color: #44924c;
+        color: white;
+        padding: .8em 4em;
+        font-weight: 500;
+    }
+    
+    .fileInputEdit {
+        padding: 10em 1em 2em 2em;
+        color: white;
+        background-color: #f8f9fd;
+        width: 20%;
+    }
+    
+     ::-webkit-file-upload-button {
+        display: none;
+    }
+    
+    .editImgBtn {
+        border: none;
+        position: relative;
+        right: 270px;
+        color: #44924c;
+        font-weight: 500;
+        background: none;
+        pointer-events: none;
+    }
+    
+    .oldImg {
+        position: relative;
+        bottom: 90px;
+        right: 420px;
+        width: 15%;
+    }
+    
+    #overview {
+        background-color: #003145;
+        padding: 2em 0;
+    }
+    
+    .overviewTop {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .time {
+        background-color: #ffce5c;
+        width: 50%;
+        padding: .5em 1em;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    
+    .overviewChallengeTitle,
+    .overviewChallengeShortDesc {
+        color: white;
+        font-weight: 500;
+        margin: 1em 0;
+    }
+    
+    .overviewChallengeTitle {
+        font-weight: 600;
+    }
+    
+    .overviewLevel {
+        background-color: white;
+        padding: .5em 1em;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 1em;
+    }
+    
+    .overviewMiddle {
+        background-color: white;
+        /* padding: 2em; */
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
+    
+    .btnGroup {
+        display: inline-block;
+        margin-top: 1em;
+    }
+    
+    .editBtn,
+    .deleteBtn {
+        display: inline-block;
+        margin: 1em;
+        padding: .5em 1.5em;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    
+    .editBtn {
+        border: none;
+        background-color: #44924c;
+        color: white;
+    }
+    
+    .deleteBtn {
+        color: #de2222;
+        background-color: white;
+        border: 2px solid #e75d5d;
+    }
+    
+    .overviewNav {
+        display: inline-block;
+        margin-left: 5em;
+        font-weight: 700;
+        margin-top: 3em;
+        padding: 0 2em;
+        border-bottom: 5px solid #44924c;
+    }
+    
+    .overviewChallengeLongDesc {
+        color: #64607D;
+        font-weight: 600;
+        margin-top: 2em;
+        font-size: 1.2rem;
+        padding: 2em 10em;
+    }
